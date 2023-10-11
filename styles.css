@@ -1,0 +1,60 @@
+br {
+  display: flex;
+  height: 0;
+}
+
+#poemContainer p {
+  margin: 0;
+}
+
+#poemContainer {
+  margin: 24px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.restart {
+  margin-top: 24px;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#poemContainer {
+  font-style: italic;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.blink {
+  margin-top: 10px;
+  animation: blinker 1s linear infinite;
+  -webkit-animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
